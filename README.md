@@ -17,6 +17,7 @@ a mistake that I caught after all the functions were completed.  I plan to corre
 #Requires -Version 3.0
 ```
 The script requires an App Registration with the following Microsoft Graph (Application) permissions:
+
 Channel.Create
 
 ChannelMember.Read.All
