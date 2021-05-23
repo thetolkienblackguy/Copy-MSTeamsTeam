@@ -12,19 +12,18 @@ a mistake that I caught after all the functions were completed.  I plan to corre
 .EXAMPLE
 I tend to use the default parameters of my scripts like most people use variables. You will have to define them for your tenant
 Nonetheless, the parameters can be called interactively when executing the script.  
-.\Copy-MSTeamsTeam -ObjectId SomeObjectId -NewTeam "A cloned Team" -NewMailNickName "clonedTeam" -ClientID SomeAppID 
+.\Copy-MSTeamsTeam -ObjectId SomeObjectId -NewTeam "A cloned Team" -NewMailNickName "clonedTeam" -ClientID SomeAppID `
     -TenantId YourTenantIDHere -ClientSecret SomeClientSecret
 
 
 .NOTES
 Author: Gabe Delaney 
-Email: PowerShellDev@phzconsulting.com
 Version: 1.0
 Date: 05/07/2021
 Name: Copy-MSTeamsTeam
 
 Version History:
-1.0 - Original Release - https://github.com/thetolkienblackguy
+1.0 - Original Release - Gabe Delaney
 The script requires an App Registration with the following Microsoft Graph (Application) permissions:
 Channel.Create
 ChannelMember.Read.All
